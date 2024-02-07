@@ -8,6 +8,7 @@ service StudentDB {
         ID,
         *
     };
+    //
      entity Books as projection on db.Books{
         @UI.Hidden: true
         ID,
